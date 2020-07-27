@@ -1,9 +1,9 @@
 baseURL = "http://static.qapuas.id/"
 languageCode = "en-us"
-title = "Qapuas Static"
+title = "Desa Delintas Karya"
 theme = "godesa"
 
-HUGO_ENV="production" # production
+#HUGO_ENV="production" # production
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
@@ -11,6 +11,7 @@ SectionPagesMenu = "main"
 Paginate = 3 
 googleAnalytics = ""
 enableRobotsTXT = true
+Copyright = "Qapuas Static"
 
 [sitemap]
   changefreq = "monthly"
@@ -27,20 +28,20 @@ enableRobotsTXT = true
     url = "/aspirasi-desa/"
 
 [params]
-  Desa = "lotus"
-  Kecamatan = "Pontianak Pusat"
-  Kabupaten = "Kapuas Melawi"
-  JumlahPenduduk = "1876"
-  Jumlah_KK = "452"
-  Jumlah_siswa = "743"
+  Desa = "Delintas Karya"
+  Kecamatan = "Boyan Tanjung"
+  Kabupaten = "Kapuas Hulu"
+  JumlahPenduduk = "690"
+  Jumlah_KK = "209"
+  Jumlah_siswa = "228"
   Jumlah_kegiatan = "53"
   favicon = "favicon.png"
   site_logo = "logo.png"
   description = "The last engine you'll ever need. Maybe."
-  NamaKepalaDesa = "Abang Ghanteng, S.sos"
-  DescKepalaDesa = "Lahir pada tahun 1990 dan di anugerahi Elemen yang Sangat sangat ganteng sekali."
+  NamaKepalaDesa = "Bahariman"
+  DescKepalaDesa = "Telah menjabat sebagai kepala desa selama 4 tahun."
   facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
+  twitter = "https://twitter.com/delintaskarya"
   instagram = ""
   youtube = ""
   github = ""
@@ -48,4 +49,4 @@ enableRobotsTXT = true
   background_color_class = "bg-green"
   bg_slider1 = "/images/slides/dayak-01.jpg"
   bg_slider2 = "/images/slides/dayak-02.jpg"
-  recent_posts_number = 2
+  recent_posts_number = 3
