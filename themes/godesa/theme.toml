@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Desa Static Gohugo Theme"
+license = "MIT"
+licenselink = "https://github.com/abimanyu/gohugo-theme-godesa/blob/master/LICENSE.md"
+description = "A Base theme for building full featured Hugo sites"
+homepage = "https://github.com/abimanyu/gohugo-theme-godesa"
+tags = ["website", "desa", "starter", "responsive", "blog", "Tachyons", "Multilingual", "Stackbit"]
+features = ["posts", "shortcodes", "related content"]
+min_version = "0.74.2"
+
+[author]
+  name = "Abimanyu Yusuf"
+  homepage = "https://abimanyu.net/"

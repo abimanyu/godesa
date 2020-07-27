@@ -1,0 +1,33 @@
+{{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
+{{ define "main" }}
+
+<div role="main" class="main">
+    <section class="page-header page-header-modern bg-color-primary page-header-md">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+                    <h1 data-title-border>{{ .Title }}</h1>
+                </div>
+                <div class="col-md-4 order-1 order-md-2 align-self-center">
+                    <ul class="breadcrumb d-block text-md-right breadcrumb-light">
+                        <li><a href="/">Home</a></li>
+                        <li class="active">{{ .Title }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col py-4">                
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+  {{ partial "intro-produk.html" . }}
+{{ end }}

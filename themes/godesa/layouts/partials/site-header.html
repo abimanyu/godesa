@@ -1,0 +1,70 @@
+<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0">
+					<div class="header-top">
+						<div class="container">
+							<div class="header-row py-2">
+								
+								{{- template "_internal/menu-head.html" . -}}
+								
+								<div class="header-column justify-content-end">
+									<div class="header-row">
+										<div class="header-nav-features header-nav-features-no-border">
+											<span class="badge badge-quaternary text-light badge-sm">61.06.01.2006</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column justify-content-start w-50 order-md-1 d-none d-md-flex">
+								<div class="header-row">
+									<ul class="header-extra-info">
+										<li class="m-0">
+											<div class="feature-box reverse-allres feature-box-style-2 align-items-center">
+												
+												<div >
+													<p class="pb-0 line-height-50 text-2">
+														<a href="/"><h2 class="gradient-text-color font-weight-bold m-0">Desa {{ block "title" . }}{{ with .Site.Params.Desa }}{{ . }}</h2></a>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="header-column justify-content-start justify-content-md-center order-1 order-md-2">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="/">
+											<img alt="Desa.id" width="100" height="100" data-sticky-width="60" data-sticky-height="60" src="/images/logo.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end w-50 order-2 order-md-3">
+								<div class="header-row">
+									<ul class="header-extra-info">
+										<li class="m-0">
+											<div class="feature-box reverse-allres feature-box-style-2 align-items-center">
+												<div class="feature-box-info">
+													<p class="pb-0 font-weight-semibold line-height-5 text-2">
+														<h5 class="text-color-secondary">Kecamatan {{ end }}{{ .Site.Params.Kecamatan }}</h5>
+														<span class="text-color-secondary">Kabupaten {{ .Site.Params.Kabupaten }}{{ end }}, Kalimantan Barat</span>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					{{- template "_internal/menu-main.html" . -}}
+				
+				</div>
+			</header>
+
+			<div role="main" class="main">

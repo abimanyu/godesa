@@ -1,6 +1,7 @@
 themes/ananke/
 public/
 static/js/demos/
+_.html
 
 # OS
 .DS_Store

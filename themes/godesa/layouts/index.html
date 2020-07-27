@@ -1,0 +1,10 @@
+{{ define "main" }}
+  
+  {{- template "_internal/site-slider.html" . -}}
+  {{ partial "intro-covid.html" . }}
+  {{ partial "intro-berita.html" . }}
+  {{ partial "intro-statistik.html" . }}
+  <hr class="solid my-5">
+  {{ partial "intro-produk.html" . }}
+  
+{{ end }}
