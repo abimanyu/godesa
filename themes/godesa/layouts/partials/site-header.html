@@ -9,7 +9,7 @@
 								<div class="header-column justify-content-end">
 									<div class="header-row">
 										<div class="header-nav-features header-nav-features-no-border">
-											<span class="badge badge-quaternary text-light badge-sm">61.06.01.2006</span>
+											<span class="badge badge-quaternary text-light badge-sm">{{ .Site.Params.Kodedesa }}</span>
 										</div>
 									</div>
 								</div>
@@ -26,7 +26,7 @@
 												
 												<div >
 													<p class="pb-0 line-height-50 text-2">
-														<a href="/"><h2 class="gradient-text-color font-weight-bold m-0">Desa {{ block "title" . }}{{ with .Site.Params.Desa }}{{ . }}</h2></a>
+														<a href="/"><h2 class="gradient-text-color font-weight-bold m-0">{{ .Site.Title }}</h2></a>
 													</p>
 												</div>
 											</div>
@@ -50,8 +50,8 @@
 											<div class="feature-box reverse-allres feature-box-style-2 align-items-center">
 												<div class="feature-box-info">
 													<p class="pb-0 font-weight-semibold line-height-5 text-2">
-														<h5 class="text-color-secondary">Kecamatan {{ end }}{{ .Site.Params.Kecamatan }}</h5>
-														<span class="text-color-secondary">Kabupaten {{ .Site.Params.Kabupaten }}{{ end }}, Kalimantan Barat</span>
+														<h5 class="text-color-secondary">Kecamatan {{ .Site.Params.Kecamatan }}</h5>
+														<span class="text-color-secondary">Kabupaten {{ .Site.Params.Kabupaten }}, Kalimantan Barat</span>
 													</p>
 												</div>
 											</div>
