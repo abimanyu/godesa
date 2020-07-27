@@ -3,12 +3,12 @@
 
 name = "Desa Static Gohugo Theme"
 license = "MIT"
-licenselink = "https://github.com/abimanyu/gohugo-theme-godesa/blob/master/LICENSE.md"
+licenselink = "https://github.com/abimanyu/godesa/blob/master/LICENSE.md"
 description = "A Base theme for building full featured Hugo sites"
-homepage = "https://github.com/abimanyu/gohugo-theme-godesa"
+homepage = "https://github.com/abimanyu/godesa"
 tags = ["website", "desa", "starter", "responsive", "blog", "Tachyons", "Multilingual", "Stackbit"]
 features = ["posts", "shortcodes", "related content"]
-min_version = "0.74.2"
+min_version = "0.54.0"
 
 [author]
   name = "Abimanyu Yusuf"
