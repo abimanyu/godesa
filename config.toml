@@ -1,0 +1,51 @@
+baseURL = "http://static.qapuas.id/"
+languageCode = "en-us"
+title = "Qapuas Static"
+theme = "godesa"
+
+HUGO_ENV="production" # production
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[menu]
+  [[menu.header]]
+    identifier = "header"
+    name = "Kantor Sekretariat Desa"
+    url = "/kantor-sekretariat-desa/"
+  [[menu.header]]
+    name = "Aspirasi Desa"
+    url = "/aspirasi-desa/"
+
+[params]
+  Desa = "lotus"
+  Kecamatan = "Pontianak Pusat"
+  Kabupaten = "Kapuas Melawi"
+  JumlahPenduduk = "1876"
+  Jumlah_KK = "452"
+  Jumlah_siswa = "743"
+  Jumlah_kegiatan = "53"
+  favicon = "favicon.png"
+  site_logo = "logo.png"
+  description = "The last engine you'll ever need. Maybe."
+  NamaKepalaDesa = "Abang Ghanteng, S.sos"
+  DescKepalaDesa = "Lahir pada tahun 1990 dan di anugerahi Elemen yang Sangat sangat ganteng sekali."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  rss = ""
+  background_color_class = "bg-green"
+  bg_slider1 = "/images/slides/dayak-01.jpg"
+  bg_slider2 = "/images/slides/dayak-02.jpg"
+  recent_posts_number = 2
