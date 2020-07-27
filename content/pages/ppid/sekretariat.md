@@ -1,6 +1,6 @@
 ---
-title: PPID Desa
-description: Pejabat Pengelola Informasi dan Dokumentasi Desa
+title: Sekretariat PPID Desa
+description: Sekretariat Pejabat Pengelola Informasi dan Dokumentasi Desa
 type: page
 menu: profil
 url: /ppid/sekretariat/
